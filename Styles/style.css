@@ -115,3 +115,21 @@ h1{
     width:10.024rem;
     height:4rem;
 }
+
+#listaFavorito{
+    display: inline-block;
+    width:10.024rem;
+    height:4rem;
+    /* margin-left: 2.4rem;
+    margin-right:2.03rem; */
+    margin-left:-2%;
+    margin-right:8%;
+}
+
+#linkNavFavorito{
+    padding: 0rem;
+    border-radius: 0rem;
+    text-decoration: none;
+    width:10.024rem;
+    height:4rem;
+}
