@@ -118,7 +118,7 @@ h1{
 
 #listaFavorito{
     display: inline-block;
-    width:10.024rem;
+    width:10.022rem;
     height:4rem;
     /* margin-left: 2.4rem;
     margin-right:2.03rem; */
@@ -127,6 +127,24 @@ h1{
 }
 
 #linkNavFavorito{
+    padding: 0rem;
+    border-radius: 0rem;
+    text-decoration: none;
+    width:10.024rem;
+    height:4rem;
+}
+
+#listaPerfil{
+    display: inline-block;
+    width:9.8rem;
+    height:4rem;
+    /* margin-left: 2.4rem;
+    margin-right:2.03rem; */
+    margin-left:-1%;
+    margin-right:-1%;
+}
+
+#linkNavPerfil{
     padding: 0rem;
     border-radius: 0rem;
     text-decoration: none;
