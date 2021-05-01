@@ -66,8 +66,10 @@ h1{
     display: inline-block;
     width:2.4rem;
     height: 2.4rem;
-    margin-left: 2.4rem;
-    margin-right:2.03rem;
+    /* margin-left:auto;
+    margin-right:auto; */
+    margin-left: 4%;
+    margin-right:6%;
 }
 
 .linkNav{
@@ -76,4 +78,22 @@ h1{
     text-decoration: none;
     width:2.4rem;
     height: 2.4rem;
+}
+
+#listaHome{
+    display: inline-block;
+    width:10.02rem;
+    height:4rem;
+    /* margin-left: 2.4rem;
+    margin-right:2.03rem; */
+    margin-left:2%;
+    margin-right:2%;
+}
+
+#linkNavHome{
+    padding: 0rem;
+    border-radius: 0rem;
+    text-decoration: none;
+    width:10.02rem;
+    height:4rem;
 }
