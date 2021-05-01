@@ -37,10 +37,9 @@ h1{
 
 .pie{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 1.6rem 2.4rem;
 
     position:fixed;
     width: 100%;
@@ -60,15 +59,21 @@ h1{
 .listaNav{
     list-style: none;
     padding-left: 0rem;
+    width: 100%;
 }
 
 .lista{
     display: inline-block;
-    width: 30%;
+    width:2.4rem;
+    height: 2.4rem;
+    margin-left: 2.4rem;
+    margin-right:2.03rem;
 }
 
 .linkNav{
     padding: 0rem;
     border-radius: 0rem;
     text-decoration: none;
+    width:2.4rem;
+    height: 2.4rem;
 }
