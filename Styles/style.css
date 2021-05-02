@@ -10,7 +10,7 @@ html{
 body{
     background-color: #FEC7D7;
 }
-
+/* Estructura basica de la pagina*/
 header{
     display: flex;
     flex-wrap: wrap;
@@ -151,3 +151,117 @@ h1{
     width:10.024rem;
     height:4rem;
 }
+/* Fin Estructura basica de la pagina*/
+
+/* Pagina de carga de incio */
+
+#logoContenedor{
+    /* width: 15rem; */
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#logomobible{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logoPequeno{
+    width: 4rem;
+    margin-left: 40%;
+    margin-right: 50%;
+    margin-top:45vmax;
+    align-content: center;
+    position: relative; 
+    z-index: -1;
+}
+
+#logoGrande{
+    width: 15rem;
+    margin-left: 26.6vmin;
+    margin-right: 26.6vmin;
+    margin-top: 40vmax;
+    align-content: center; 
+    position: relative; 
+    z-index: 2;
+    animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn{
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+#esperando{
+    width:100%;
+    /* margin-top:2vmax; */
+}
+
+.imgEsperando{
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#adoptado{
+    width:100%;
+    /* margin-top:8vmax; */
+}
+
+.imgAdoptado{
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.carousel-caption {
+    position:static;
+    color:black;
+    font-size: 1.6rem;
+    margin-left:1rem;
+    margin-right: 1rem;
+    margin-top: -2%;
+}
+
+.tituloLogo{
+    font-size: 1.8rem;
+}
+
+.botonInicio{
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem;
+    width: 90%;
+    /* height: 4.8rem; */
+    background: #0E172C;
+    border-radius: 9.8rem;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #FFFFFE;
+    margin-top:4%;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.botonInicio2{
+    text-decoration: none;
+}
+
+.botonInicio2:active{
+    color: #FFFFFE;
+}
+
+.botonInicio2:visited{
+    color: #FFFFFE;
+}
+/* Fin Pagina de carga de incio */

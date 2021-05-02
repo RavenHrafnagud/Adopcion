@@ -14,38 +14,49 @@
         <title>Adopcion</title>
     </head>
     <body>
-        <header>
-            <div class="tituloPrincipal">
-                <h1>Adopta una adorable mascosta</h1>
+        <div id="logoContenedor" class="carousel carousel-fade" data-bs-ride="carousel" data-bs-touch="false" data-bs-wrap="false">
+            
+            <div id="logomobible" class="carousel-inner">
+
+
+                <div class="carousel-item active" data-bs-interval="1000" id="logoPequeno">
+                    <img src="./img/logo_pequeno.png"  alt="Logo pequeño">
+                    <button class="carousel-control-next" type="button" data-bs-target="#logoContenedor" data-bs-slide="next">
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+                <div class="carousel-item" data-bs-interval="4000" id="logoGrande">
+                    <img src="./img/logo_grande.png"  alt="Logo grande">
+                    <button class="carousel-control-next" type="button" data-bs-target="#logoContenedor" data-bs-slide="next">
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+                <div class="carousel-item " data-bs-interval="4000000"  id="esperando" >
+                    <img class="imgEsperando" src="./img/esperando_adopción.png"  alt="Gatitos">
+                    <div class="carousel-caption d-md-block" id="esperandoTexto">
+                        <h5 class="tituloLogo">Encuentra tu amigo fiel</h5>
+                        <p>Cuando adoptas a una mascota, cosas maravillosas suceden en tu vida. Si estás pensando en tener un nuevo integrante en tu familia; ¡estás en el lugar correcto!</p>
+                    </div>
+                    <button class="botonInicio" type="button" data-bs-target="#logoContenedor" data-bs-slide="next">Siguiente</button>
+                </div>
+
+
+                <div class="carousel-item" data-bs-interval="false"  id="adoptado" >
+                    <img class="imgAdoptado" src="./img/Adoptado.png"  alt="Chica con mascota">
+                    <div class="carousel-caption d-md-block" id="adoptadoTexto">
+                        <h5 class="tituloLogo">Crea una nueva historia</h5>
+                        <p>Adoptar puede ser una de las experiencias más grandiosas de tu vida, donde compartirás bellos momentos con estos amiguitos fieles, tiernos y llenos de amor para regalar.</p>
+                    </div>
+                    <button class="botonInicio" type="button" data-bs-target="" data-bs-slide="next"><a class="botonInicio2" role="button" href="./pages/home.html">Siguiente</a></button>
+                </div>
+
+
             </div>
-        </header>
-        <main>
-            <section class="categorias">
-                <p>Categorias de mascotas</p>
-                <div class="categoriaPerros">
-                    <span>perros</span>
-                </div>
-                <div class="categoriaGatos">
-                    <span>gatos</span>
-                </div>
-            </section>
-            <section class="perros">
-
-            </section>
-            <section class="gatos">
-
-            </section>
-        </main>
-        <footer class="pie">
-            <nav class="pieNav">
-                <ul class="listaNav">
-                    <li class="lista" onclick="id='lihome'"><a class="linkNav" href="./pages/home.html"  onclick="id='ahome'"><img  class="home" src="./img/home.png" alt="Home"  onclick="src='./img/home_hover.png'"></a></li>
-                    <li class="lista" onclick="id='limensaje'"><a class="linkNav" href="./pages/mensajes.html" onclick="id='amensaje'"><img src="./img/mensajes.png" alt="Mensajes" onclick="src='./img/mensajes_hover.png'"></a></li>
-                    <li class="lista" onclick="id='lifavorito'"><a class="linkNav" href="./pages/favoritos.html" onclick="id='afavorito'"><img src="./img/favoritos.png" alt="Favoritos" onclick="src='./img/favoritos_hover.png'"></a></li>
-                    <li class="lista" onclick="id='liperfil'"><a class="linkNav" href="./pages/perfil.html" onclick="id='aperfil'"><img src="./img/perfil.png" alt="Perfil" onclick="src='./img/perfil_hover.png'"></a></li>
-                </ul>
-            </nav>
-        </footer>
+        </div>
     </body>
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
