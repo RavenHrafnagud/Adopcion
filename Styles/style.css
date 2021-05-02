@@ -10,11 +10,15 @@ html{
 body{
     background-color: #FEC7D7;
 }
+
+
 /* Estructura basica de la pagina*/
 header{
     display: flex;
     flex-wrap: wrap;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
 
 .tituloPrincipal{
     width: 100%;
@@ -25,7 +29,7 @@ header{
 }
 
 h1{
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 2.4rem;
@@ -33,6 +37,17 @@ h1{
     text-align: center;
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+.subtituloCategorias{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    width: 100%;
+    margin-left: 2rem;
+    margin-top: 3rem;
 }
 
 .pie{
@@ -153,6 +168,8 @@ h1{
 }
 /* Fin Estructura basica de la pagina*/
 
+
+
 /* Pagina de carga de incio */
 
 #logoContenedor{
@@ -228,10 +245,14 @@ h1{
     margin-left:1rem;
     margin-right: 1rem;
     margin-top: -2%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
 }
 
 .tituloLogo{
     font-size: 1.8rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
 }
 
 .botonInicio{
@@ -264,4 +285,24 @@ h1{
 .botonInicio2:visited{
     color: #FFFFFE;
 }
-/* Fin Pagina de carga de incio */
+/* Fin Pagina de carga de Incio */
+
+
+/* Inicio Pagia home */
+#cabezaCategorias{
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display:contents;
+}
+img{
+    width: 100%;
+}
+
+.imgCategorias{
+    width: 14rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Fin Pagina Home */
