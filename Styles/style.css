@@ -25,15 +25,15 @@ header{
     height: 6.6rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4.8rem;
+    margin-top: 3rem;
 }
 
 h1{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 2.4rem;
-    line-height: 3.3rem;
+    font-size: 2.29rem;
+    line-height: 2.8rem;
     text-align: center;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -43,11 +43,11 @@ h1{
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 2.5rem;
     width: 100%;
     margin-left: 2rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .pie{
@@ -276,6 +276,7 @@ h1{
 
 .botonInicio2{
     text-decoration: none;
+    color: #FFFFFE;
 }
 
 .botonInicio2:active{
@@ -295,14 +296,272 @@ h1{
     margin-right: auto;
     display:contents;
 }
+
 img{
     width: 100%;
 }
 
-.imgCategorias{
-    width: 14rem;
+.categorias{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8.43rem;
+    height: 4.32rem;
+}
+
+.btn-outline-success .btn-check{
+    color:transparent;
+    border-color:transparent;
+    background-color:transparent;
+    box-shadow: none;
+}
+
+.btn-outline-danger .btn-check{
+    color:transparent;
+    border-color:transparent;
+    background-color:transparent;
+    box-shadow: none;
+}
+
+.btn-check:active+.btn-outline-success, .btn-check:checked+.btn-outline-success, .btn-outline-success.active, .btn-outline-success.dropdown-toggle.show, .btn-outline-success:active {
+    background-image: url("../img/perros.png");
+    color:transparent;
+    border-color:transparent;
+    background-color:transparent;
+    box-shadow: none;
+    background-size: 8.43rem 4.32rem;
+}
+
+.btn-check:active+.btn-outline-danger, .btn-check:checked+.btn-outline-danger, .btn-outline-danger.active, .btn-outline-danger.dropdown-toggle.show, .btn-outline-danger:active {
+    background-image: url("../img/gatos.png");
+    color:transparent;
+    border-color:transparent;
+    background-color:transparent;
+    box-shadow: none;
+    background-size: 8.43rem 4.32rem;
+}
+
+.btn-outline-success:hover{
+    background-image: url("../img/perros.png");
+    color:transparent;
+    border-color:transparent;
+    background-color:transparent;
+    box-shadow:none;
+    background-size: 8.43rem 4.32rem;
+}
+
+.btn-outline-danger:hover{
+    background-image: url("../img/gatos.png");
+    color:transparent;
+    border-color:transparent;
+    background-color:transparent;
+    box-shadow:none;
+    background-size: 8.43rem 4.32rem;
+}
+
+#perros{
+    margin-bottom: 10rem;
+}
+
+#gatos{
+    margin-bottom: 10rem;
+}
+
+.posisionCategorias{
+    margin-left: 11%;
+    margin-right: 4%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width:8.6rem;
+    height: 13.7rem;
+    display:inline-flex;
+}
+
+.contenedorCategorias{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width:8.6rem;
+    height: 13.7rem;
+}
+
+.centrado{
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.363);
+    border-radius: 1rem;
+}
+
+.centrado h5{
+    margin: 0;
+}
+
+.contenedorCategorias img{
+    border-radius: 1.2rem;
+    height: 13.7rem;
+} 
+
+/* Fin Pagina Home */
+
+
+/* Pagina Tarjetas */
+
+.card-text, .personalidad{
+    /* display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto; */
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.imgPersonalidad{
+    width: 9.2rem;
+    height: 9.2rem;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Fin Pagina Home */
+.imgFavorito{
+    width: 4.8rem;
+    height: 4.8rem;
+    margin-top: -1rem;
+    margin-left:auto;
+    margin-right: 0;
+}
+
+.imgDatoPersonal{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left: auto;
+    margin-right: -1rem;
+}
+
+.imgSexo{
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-left: 0.5rem;
+    margin-right: auto;
+}
+
+.imgAtras{
+    width: 4.4rem;
+    height: 4.4rem;
+    position:absolute;
+    top:2rem;
+    left:2rem;
+}
+
+#inputNombre{
+    border: 0;
+    width: 8rem;
+}
+
+.inputNombre{
+    width: 8rem;
+    margin-left: auto;
+    margin-right:0;
+}
+
+.imgDatoPersonal{
+    margin-top: -0.5rem;
+}
+
+#inputRaza{
+    border: 0;
+    width: 7rem;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+#inputEdad{
+    border: 0;
+    width: 6rem;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+/* #inputGps{
+    border: 0;
+    width: 28rem;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+} */
+
+.row{
+    margin-top: 1rem;
+    margin-left:-2rem;
+}
+
+.container{
+    margin-bottom: 2rem;
+}
+
+.cuerpo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-text p{
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.imgContacto{
+    height: 7rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ContenedorBotonContactar{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botonContactar{
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem;
+    width: 90%;
+    height: 4.8rem;
+    background: #0E172C;
+    border-radius: 9.8rem;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #FFFFFE;
+    margin-top:4%;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.botonContactar2{
+    text-decoration: none;
+    color: #FFFFFE;
+}
+
+.botonContactar2:active{
+    color: #FFFFFE;
+}
+
+.botonContactar2:visited{
+    color: #FFFFFE;
+}
+/* Fin Pagina Tarjetas */

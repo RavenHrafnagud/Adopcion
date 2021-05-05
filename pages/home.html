@@ -18,19 +18,108 @@
             <div class="tituloPrincipal">
                 <h1>Adopta una adorable mascosta</h1>
             </div>
-
             <div id="cabezaCategorias">
                 <p class="subtituloCategorias">Categorias de mascotas</p>
-                <div id="iconoPerro" class="imgCategorias">
-                    <img  src="../img/perros.png" alt="icono perro">
+                <div class="categorias">
+                    <input type="radio" class="btn-check" name="categoriasin" id="iconoPerro" autocomplete="off" value="perro" onchange="perros()" checked>
+                    <label class=" btn-outline-success" for="iconoPerro"><img src="../img/perros_opaco.png" alt=""></label>
                 </div>
-                <div id="iconoGato" class="imgCategorias">
-                    <img src="../img/gatos.png" alt="icono gatos">
+                <div class="categorias">
+                    <input type="radio" class="btn-check" name="categoriasin" id="iconoGato" autocomplete="off" value="gato" onchange="gatos()">
+                    <label class="btn-outline-danger" for="iconoGato"><img src="../img/gatos_opaco.png" alt=""></label>
                 </div>
-                
             </div>
         </header>
-        <main>
+        <main id="casa">
+<!-- 
+            <section id="perros">
+                <div class="posisionCategorias">
+                    <div class="contenedorCategorias">
+                        <img src="../img/tarjetas/rocky.png">
+                        <div class="centrado">
+                            <h5>Rocky</h5>
+                            <span>Rottweiler</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posisionCategorias">
+                    <div class="contenedorCategorias">
+                        <img src="../img/tarjetas/chester.png">
+                        <div class="centrado">
+                            <h5>Chester</h5>
+                            <span>Golden retriever</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posisionCategorias">
+                    <div class="contenedorCategorias">
+                        <img src="../img/tarjetas/papi.png">
+                        <div class="centrado">
+                            <h5>Papi</h5>
+                            <span>Chihuahua</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posisionCategorias">
+                    <div class="contenedorCategorias">
+                        <img src="../img/tarjetas/Pelusa.png">
+                        <div class="centrado">
+                            <h5>Pelusa</h5>
+                            <span>Bichón frisé</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+ -->
+
+
+<!--  
+            <section id="gatos">
+                <div class="posisionCategorias">
+                    <div class="contenedorCategorias">
+                        <img src="../img/tarjetas/Matilde.png">
+                        <div class="centrado">
+                            <h5>Matilde</h5>
+                            <span>British Shorthair</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posisionCategorias">
+                    <div class="contenedorCategorias">
+                        <img src="../img/tarjetas/Pelusag.png">
+                        <div class="centrado">
+                            <h5>Pelusa</h5>
+                            <span>Birmano</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posisionCategorias">
+                    <div class="contenedorCategorias">
+                        <img src="../img/tarjetas/Kity.png">
+                        <div class="centrado">
+                            <h5>Kity</h5>
+                            <span>Bombay</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posisionCategorias">
+                    <div class="contenedorCategorias">
+                        <img src="../img/tarjetas/Bombon.png">
+                        <div class="centrado">
+                            <h5>Bombón</h5>
+                            <span>Gato americano</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+ -->
+
 
         </main>
         <footer class="pie">
@@ -46,4 +135,5 @@
     </body>
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script src="../app/javaScript.js"></script>
 </html>
